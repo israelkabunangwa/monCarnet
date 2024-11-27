@@ -1,14 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: "Roboto", sans-serif;
+    font-family: "Quicksand", serif;
     /*font-weight: 700;*/
     font-style: normal;
     box-sizing: border-box;
 }
 .home{
     height: 100vh;
-
+    background-image: url("IMG/pen-and-notebook-sits-on-a-table_2481124_wh860.png");
+    background-size: cover;
+}
+.homeContainer{
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100vh;
 }
 .navBar{
     height: 10vh;
@@ -16,46 +21,57 @@
     justify-content: space-between;
     padding: 2rem 5rem;
 }
+.logo h2{
+    color: white;
+}
 .carnet{
-    color: rgb(22, 22, 197);
+    color: #007FFF;
 }
 .navBar h1{
     font-weight: 900;
 }
 .log a{
     padding: 0.5rem 2rem;
-    background-color: #00308F;
+    background-color: #007FFF;
     color: white;
     text-decoration: none;
 }
 .description{
-    display: flex;
     height: 90vh;
-}
-.text{
-    width: 70%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 5rem 2rem 5rem 5rem;
-}
-.text h1{
-    font-size: 3rem;
-}
-.image{
-    width: 50%;
-    height: 100%;
+    padding: 5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding:5rem 5rem 5rem 2rem;
 }
-.image img{
-    display: block;
-    width: 100%;
-    object-fit: cover;
+.description .text{
+    text-align: center;
+    color: white;
 }
-
+.description .text h1{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+.description .text p{
+    margin-top: 2rem;
+    display: inline-flex;
+    align-items: center;
+}
+.description .text p span{
+    display: flex;
+    align-items: center;
+    color: #007FFF;
+}
+.description .text p i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.8rem;
+    height: 1.8rem;
+    border: 1px solid #007FFF;
+    border-radius: 50%;
+    margin-left: 0.5rem;
+   
+}
 /*===============LOGIN AND========================*/
 
 .login{
