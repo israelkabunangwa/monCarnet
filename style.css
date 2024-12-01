@@ -81,21 +81,23 @@
     align-items: center;
     justify-content: center;
 }
+
 .loginContainer h2{
     text-align: center;
-    color:#00308F ;
+    color:#007FFF ;
 }
 form{
     width: 100%;
     text-align: center;
     padding: 0rem 2rem;
+  
 }
 .seConnecter{
     width: 100%;
     border: 0;
     outline: none;
     padding: 0.5rem 0rem;
-    background-color: #00308F;
+    background-color: #007FFF;
     color: white;
 }
 .login input{
@@ -115,11 +117,23 @@ form{
     cursor: pointer;
 }
 
+.error{
+    color: red;
+    text-align: center;
+    font-size: 0.7rem;
+    margin-top: 0;
+}
+#delete{
+    color:red
+}
+#edit{
+    color:green
+}
 /*===============ADMIN DASHBOARD========================*/
 
 .admin .title{
     padding: 2rem 2rem;
-    background-color: #00308F;
+    background-color: #007FFF;
     color: white;
 }
 .adminContainer{
@@ -142,7 +156,6 @@ td{
 
 .form{
     width: 40%;
-  
     padding: 5rem;
 }
 .form input{
@@ -160,7 +173,7 @@ td{
     padding: 0.5rem 0rem;
     outline:none;
     border: 0;
-    background-color: #00308F;
+    background-color: #007FFF;
     color: white;
 }
 

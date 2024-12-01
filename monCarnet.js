@@ -66,9 +66,9 @@ function App(){
             <table>
                 <thead>
                     <tr>
-                        <th scope="col">first_name</th>
-                        <th scope="col">last_name</th>
-                        <th scope="col">email</th>
+                        <th scope="col">NAME</th>
+                        <th scope="col">LAST NAME</th>
+                        <th scope="col">EMAIL</th>
                     </tr>
                 </thead>
              <tbody>
@@ -83,11 +83,11 @@ function App(){
                         {user.email}
                     </td>
                     <td >
-                        <button onClick={() => editUser(index)}>Modifier</button>
+                        <i class="fa-solid fa-pen" onClick={() => editUser(index)} id="edit"></i>
                     </td>
                     <td >
                     
-                        <button onClick={() => handleDeleteUser(index)}>Supprimer</button>
+                        <i class="fa-solid fa-trash" onClick={() => handleDeleteUser(index)} id="delete"></i>
                         
                     </td>
                     </tr>

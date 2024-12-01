@@ -99,7 +99,7 @@ function App(){
                         <button type="submit" className="seConnecter">Créer un Compte</button>
                     </form>
                     {errorMessage && <p className="error">{errorMessage}</p>}
-                    <p className="pasDeCompte">Déjà un compte ? <span onClick={() => setIsLogin(true)} className="creerCompte">Se connecter</span></p>
+                    <p className="pasDeCompte">Avez-vous un compte ? <span onClick={() => setIsLogin(true)} className="creerCompte">Se connecter</span></p>
                     </div>
            
                 </div>
@@ -128,7 +128,7 @@ function App(){
                 return (
                     <div className="login">
                         <div className="loginContainer">
-                         <h2>Formulaire de Connexion</h2>
+                         <h2>CONNEXION</h2>
                         <form onSubmit={handleSubmit}>
                             <input 
                                 type="text" 
@@ -147,7 +147,7 @@ function App(){
                             <button type="submit" className="seConnecter">Se connecter</button>
                         </form>
                         {errorMessage && <p className="error">{errorMessage}</p>}
-                        <p className="pasDeCompte">Pas encore de compte ? <span onClick={() => setIsLogin(false)} className="creerCompte">Créer un Compte</span></p>
+                        <p className="pasDeCompte">Vous n'avez pas de compte ? <span onClick={() => setIsLogin(false)} className="creerCompte">Créer un Compte</span></p>
                         </div>
            
                     </div>
